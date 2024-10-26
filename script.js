@@ -16,7 +16,7 @@ const charger_carte = async (nom) => {
 }
 
 const afficher_carte = (carte) => {
-    const mapContainer = document.querySelector(`main`);
+    const terrain_html = document.querySelector(`.terrain`);
 
     carte.terrain.forEach((ligne, y) => {
         const ligne_html = document.createElement('div')
@@ -33,7 +33,7 @@ const afficher_carte = (carte) => {
             }
             ligne_html.appendChild(case_html)
         })
-        mapContainer.appendChild(ligne_html)
+        terrain_html.appendChild(ligne_html)
     })
 }
 

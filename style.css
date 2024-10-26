@@ -13,19 +13,30 @@
 /* Décors */
 
 main {
+    overflow: hidden;
+    
     background: var(--c-arriere-plan);
 
     height: 100vh;
     width: 100vw;
 }
 
-.case {
-    height: 4rem;
-    width: 4rem;
-    background-size: cover;
+.terrain {
+    display: grid;
+    grid-auto-flow: row;
+
+    height: min-content;
+    width: min-content;
 }
 
 .ligne {
     display: grid;
     grid-auto-flow : column;
+}
+
+.case {
+    background-size: cover;
+
+    height: 4rem;
+    width: 4rem;
 }
