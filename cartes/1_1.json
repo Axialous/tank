@@ -3,7 +3,7 @@
         "x": 3,
         "y": 6
     },
-    "blocs": {
+    "cases": {
         "0": {
             "praticable": true,
             "texture": "plancher"
