@@ -18,3 +18,14 @@ main {
     height: 100vh;
     width: 100vw;
 }
+
+.case {
+    height: 4rem;
+    width: 4rem;
+    background-size: cover;
+}
+
+.ligne {
+    display: grid;
+    grid-auto-flow : column;
+}
